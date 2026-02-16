@@ -1,0 +1,12 @@
+h2{
+color: black;
+}
+p{
+background-color: orange;
+color: white;
+}
+.row g-3 needs-validation{
+padding: 42px;
+display: block;
+margin: auto;
+}
