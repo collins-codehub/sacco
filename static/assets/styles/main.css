@@ -10,3 +10,11 @@ padding: 42px;
 display: block;
 margin: auto;
 }
+.row g-3 needs-validation{
+background-color: black;
+color: white;
+}
+#fromm{
+color: white;
+background-color: black;
+}

@@ -20,8 +20,8 @@ from member_registration import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('profile', views.profile, name='profile'),
-    path('about', views.about, name='about'),
-    path('member_list', views.member_list, name='member_list'),
-    path('member_details', views.member_details, name='member_details'),
+    path('profile/', views.profile, name='profile'),
+    path('about/', views.about, name='about'),
+    path('member_list/', views.member_list, name='member_list'),
+    path('member_details/', views.member_details, name='member_details'),
 ]
